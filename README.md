@@ -1,5 +1,5 @@
 # Automated-Network-Reconnaissance
-Simple Python Script for automatically discovering what devices (&amp; operating systems) are connected to a network 
+Simple Python Script for automatically discovering what devices are connected to a network (Operating Systems & Open Ports included)
 
 # Resources Used 
 PyCharm | https://www.jetbrains.com/pycharm/download/?section=windows
