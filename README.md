@@ -47,7 +47,7 @@ Terminal | https://learn.microsoft.com/en-us/windows/terminal/
 
 # Example Output
 
-> Navigate to the directory where the script is located and use "python 'name_of_.py' to run script on your locally connected network"
+> Navigate to the directory where the script is located and use "python 'name_of_.py' to run script against your locally connected network"
 
 > A seperated list of each device on the network along with it's operating system is then produced
   
