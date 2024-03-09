@@ -1,7 +1,7 @@
 # LAN - Automated Network Reconnaissance
 Simple Python Script for automatically discovering what devices are connected to a Local Network (Operating Systems & Open Ports included)
 
-# Resources Used 
+# Resources
 PyCharm | https://www.jetbrains.com/pycharm/download/?section=windows
 
 Python | https://www.python.org/downloads/
