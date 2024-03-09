@@ -46,3 +46,125 @@ Terminal | https://learn.microsoft.com/en-us/windows/terminal/
              print(f"IP: {host} - OS detection not available")
 
 # Example Output
+
+> Navigate to the directory where the script is located and use "python 'name_of_.py' to run script on your locally connected network"
+
+> A seperated list of each device on the network along with it's operating system is then produced
+  
+        # IP: 10.x.x.x
+    #OS Name: Linux 4.15 - 5.8
+    OS Accuracy: 100
+
+    Port scan results:
+     Protocol: tcp
+    Port: 22    Service: ssh
+    Port: 23    Service: telnet
+    Port: 53    Service: domain
+    Port: 80    Service: http
+      Website: http://10.0.0.1:80
+    Port: 111   Service: rpcbind
+    Port: 443   Service: https
+      Website: http://10.0.0.1:443
+    Port: 8080  Service: http-proxy
+    Port: 8181  Service: intermapper
+    Port: 9000  Service: cslistener
+    Port: 49152 Service:
+--------------------------------------------------
+      IP: 10.x.x.x
+      OS Name: Apple Mac OS X 10.11 (El Capitan) or iOS 12.4 - 13.6 (Darwin 15.6.0 - 19.6.0)
+      OS Accuracy: 97
+
+      OS Name: Apple macOS 10.15 (Catalina) (Darwin 19.6.0)
+      OS Accuracy: 97
+
+      OS Name: Apple macOS 10.13 (High Sierra) - 10.15 (Catalina) or iOS 11.0 - 13.4 (Darwin 17.0.0 - 19.6.0)
+      OS Accuracy: 96
+
+    OS Name: Apple macOS 11 (Big Sur) (Darwin 20.6.0)
+    OS Accuracy: 96
+
+    Port scan results:
+    Protocol: tcp
+    Port: 49153 Service:
+    Port: 62078 Service: iphone-sync
+--------------------------------------------------
+    IP: 10.x.x.x
+    OS Name: Amazon Kindle Paperwhite
+    OS Accuracy: 100
+
+    OS Name: CyanogenMod 12 (Android 5.0.2)
+    OS Accuracy: 100
+
+    Port scan results:
+    Protocol: tcp
+    Port: 8009  Service: ajp13
+    Port: 9080  Service: glrpc
+--------------------------------------------------
+    IP: 10.x.x.x
+      OS Name: VxWorks
+      OS Accuracy: 99
+
+    OS Name: Keyence CV-X150F Image Sensor/Controller (VxWorks)
+    OS Accuracy: 97
+
+    OS Name: VxWorks: HP printer or Vocality BASICS Four Wire VoIP gateway
+    OS Accuracy: 97
+
+    OS Name: HP LaserJet M2727nf or P1505n printer
+    OS Accuracy: 96
+
+    OS Name: Blackboard transaction system serial-to-IP converter
+    OS Accuracy: 96
+
+    OS Name: HP LaserJet CP2025dn printer
+    OS Accuracy: 96
+
+    OS Name: HP LaserJet M451dn, CM1415fnw, or CP4525
+    OS Accuracy: 96
+
+    Port scan results:
+      Protocol: tcp
+    Port: 80    Service: http
+      Website: http://10.x.x.x:80
+    Port: 139   Service: netbios-ssn
+    Port: 443   Service: https
+      Website: http://10.x.x.x:443
+    Port: 445   Service: microsoft-ds
+    Port: 631   Service: ipp
+    Port: 8080  Service: http-proxy
+    Port: 9100  Service: jetdirect
+    Port: 9220  Service:
+--------------------------------------------------
+    IP: 10.x.x.x
+    OS Name: Apple macOS 11 (Big Sur) (Darwin 20.6.0)
+    OS Accuracy: 100
+
+    Port scan results:
+    Protocol: tcp
+    Port: 49152 Service:
+    Port: 62078 Service: iphone-sync
+--------------------------------------------------
+    IP: 10.x.x.x
+    OS Name: Microsoft Windows 10 1607
+    OS Accuracy: 100
+
+    Port scan results:
+      Protocol: tcp
+        Port: 135   Service: msrpc
+        Port: 139   Service: netbios-ssn
+        Port: 445   Service: microsoft-ds
+        Port: 2869  Service: icslap
+        Port: 5357  Service: wsdapi
+--------------------------------------------------
+    IP: 10.x.x.x
+      OS Name: Amazon Kindle Paperwhite
+      OS Accuracy: 100
+    
+      OS Name: CyanogenMod 12 (Android 5.0.2)
+      OS Accuracy: 100
+    
+    Port scan results:
+      Protocol: tcp
+        Port: 8009  Service: ajp13
+
+
