@@ -61,10 +61,10 @@ Terminal | https://learn.microsoft.com/en-us/windows/terminal/
     Port: 23    Service: telnet
     Port: 53    Service: domain
     Port: 80    Service: http
-      Website: http://10.0.0.1:80
+      Website: http://10.x.x.x:80
     Port: 111   Service: rpcbind
     Port: 443   Service: https
-      Website: http://10.0.0.1:443
+      Website: http://10.x.x.x:443
     Port: 8080  Service: http-proxy
     Port: 8181  Service: intermapper
     Port: 9000  Service: cslistener
