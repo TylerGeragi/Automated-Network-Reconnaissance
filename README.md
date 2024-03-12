@@ -50,25 +50,7 @@ Terminal | https://learn.microsoft.com/en-us/windows/terminal/
 > Navigate to the directory where the script is located and use "python 'name_of_.py' to run script against your locally connected network"
 
 > A seperated list of each device on the network along with it's operating system is then produced
-  
-        # IP: 10.x.x.x
-    #OS Name: Linux 4.15 - 5.8
-    OS Accuracy: 100
 
-    Port scan results:
-     Protocol: tcp
-    Port: 22    Service: ssh
-    Port: 23    Service: telnet
-    Port: 53    Service: domain
-    Port: 80    Service: http
-      Website: http://10.x.x.x:80
-    Port: 111   Service: rpcbind
-    Port: 443   Service: https
-      Website: http://10.x.x.x:443
-    Port: 8080  Service: http-proxy
-    Port: 8181  Service: intermapper
-    Port: 9000  Service: cslistener
-    Port: 49152 Service:
 --------------------------------------------------
       IP: 10.x.x.x
       OS Name: Apple Mac OS X 10.11 (El Capitan) or iOS 12.4 - 13.6 (Darwin 15.6.0 - 19.6.0)
